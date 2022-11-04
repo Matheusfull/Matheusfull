@@ -1,15 +1,28 @@
 ### Hi there 👋
 
 
-**Matheusfull/Matheusfull** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+const name = 'Sally Barzilai Diament';
+const graduation = 'Business School Insper';
 
-Here are some ideas to get you started:
+const languages1= ['Javascript'];  
+  
+  const checkStatusLanguages1 = (languages1) => {
+    if (languages1.every((language) => { languague === 'learning' }) {
+    	return 'true' }
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+languages1.push('TypeScript');     <!--  learning now -->
+languages1.push('Python');     <!--  learning soon -->
+
+const languages2= ['English', 'Spanish', 'French', 'Portuguese'];  
+  
+  const checkStatusLanguages2 = (languages2) => {
+    if (languages2.every((language) => { languague === 'fluently' }) {
+    	return 'true' }
+  }
+
+  let learning = {
+      Trybe: 'full stack web developer',
+      Ebac workshop: 'customer experience',
+      Ebac workshop: 'product manager',
+  }      
