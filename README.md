@@ -2,7 +2,6 @@
 
 
 const name = 'Sally Barzilai Diament';
-const graduation = 'Business School Insper';
 
 const languages1= ['Javascript'];  
   
@@ -12,7 +11,6 @@ const languages1= ['Javascript'];
   }
 
 languages1.push('TypeScript');     <!--  learning now -->
-languages1.push('Python');     <!--  learning soon -->
 
 const languages2= ['English', 'Spanish', 'French', 'Portuguese'];  
   
@@ -20,9 +18,4 @@ const languages2= ['English', 'Spanish', 'French', 'Portuguese'];
     if (languages2.every((language) => { languague === 'fluently' }) {
     	return 'true' }
   }
-
-  let learning = {
-      Trybe: 'full stack web developer',
-      Ebac workshop: 'customer experience',
-      Ebac workshop: 'product manager',
-  }      
+      
